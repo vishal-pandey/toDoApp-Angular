@@ -1,0 +1,15 @@
+<section class="container">
+	<section class="content">
+		<ul>
+			<li *ngFor="let i of taskList">{{i}} <button mat-mini-fab (click)="deleteTask(i)" color="warn">X</button> </li>
+		</ul>
+	</section>
+</section>
+<section class="actions">
+	<section class="content ac-content">
+		<mat-form-field>
+			<textarea matInput placeholder="Enter a task" #task></textarea>
+		</mat-form-field>
+		<button mat-fab (click)="addTask(task.value); task.value=''; scrollBottom()" color="primary">+</button>
+	</section>
+</section>

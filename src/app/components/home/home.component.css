@@ -1,0 +1,44 @@
+.container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content{
+	width: 100%;
+	max-width: 600px;
+	
+}
+.actions{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	position: absolute;
+	bottom: 10vh;
+}
+mat-form-field{
+	width: 80%;
+}
+ul{
+	padding-left: 0;
+	margin-left: 0;
+	max-height: 70vh;
+	overflow: auto;
+}
+button{
+	background-color: green;
+}
+li{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	padding-left: 0;
+}
+.ac-content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	
+}
